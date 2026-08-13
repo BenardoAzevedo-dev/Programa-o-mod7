@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    width: 90%;
+    max-width: 898px;
+    height: 235px;
+
+    margin: 40px auto 0;
+
+    background-color: #d8d8d8;
+    background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+    position: absolute;
+
+    width: 164px;
+    height: 164px;
+
+    left: 27px;
+    top: 17px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: none;
+}
+
+.nome-usuario {
+    position: absolute;
+
+    width: 344px;
+    height: 77px;
+
+    left: 207px;
+    top: 25px;
+
+    border-radius: 40px;
+
+    background-color: rgba(20, 20, 20, 0.55);
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 30px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Pequenos círculos */
+.botao {
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    top: 125px;
+}
+
+/* Primeiro círculo */
+.botao-1 {
+    left: 220px;
+}
+
+/* Segundo círculo */
+.botao-2 {
+    left: 368px;
+}
+
+.barra-pesquisa {
+    width: calc(90% - 7px);
+    max-width: 526px;
+    height: 56px;
+
+    margin: 26px auto 0;
+    margin-left: calc(5% + 7px);
+
+    background-color: #e2e2e2;
+
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+
+    gap: 14px;
+}
+
+/* Ícone de lupa */
+.icone-pesquisa {
+    width: 22px;
+    height: 22px;
+
+    flex-shrink: 0;
+}
+
+/* Campo de texto da pesquisa */
+.campo-pesquisa {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+    background: transparent;
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+/* Conteúdo principal */
+.conteudo {
+    width: 90%;
+    max-width: 898px;
+
+    margin: 26px auto 40px;
+
+    display: flex;
+    gap: 24px;
+}
+
+/* Grade de fanarts */
+.grade-fanarts {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    gap: 24px;
+}
+
+.fanart {
+    background-color: #d8d8d8;
+    border-radius: 4px;
+}
+
+/* Coluna de reações */
+.reacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+.par-reacao {
+    display: flex;
+    gap: 20px;
+}
+
+.reacao {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+}
+
+.reacao-roxa {
+    background-color: #b829c9;
+}
+
+.reacao-azul {
+    background-color: #00b8e6;
+}
