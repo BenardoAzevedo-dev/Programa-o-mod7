@@ -1,0 +1,19 @@
+{
+  "work": [
+    {
+      "title": "eevee",
+      "class": "normal",
+      "coverImage": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/133.png",
+      "description": "febre e dores no corpo",
+      "id": "8KcAQkb0tyM"
+    },
+    {
+      "title": "Mega rayquaza shiny",
+      "class": "Voador/Dragão",
+      "coverImage": "https://static.pokemonpets.com/images/monsters-images-300-300/10384-Shiny-Mega-Rayquaza.webp",
+      "description": "unha encravada",
+      "id": "JxSEtMiSpkk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
